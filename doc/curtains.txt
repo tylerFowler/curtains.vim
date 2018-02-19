@@ -1,0 +1,113 @@
+*curtains.txt*   pull the shades on vim
+
+                  curtains.vim v1.0.0
+
+    Pull the shades on your vim theme by toggling between
+    light and dark schemes
+
+==============================================================
+CONTENTS                                    *CurtainsContents*
+
+  1. Usage ............................ |CurtainsUsage|
+    1.1 LightScheme ................... |CurtainsLightScheme|
+    1.2 DarkScheme .................... |CurtainsDarkScheme|
+  2. Configuration .................... |CurtainsConfiguration|
+    2.1 g:curtains_darkscheme ......... |CurtainsConfiguration_darkscheme|
+    2.2 g:curtains_lightscheme ........ |CurtainsConfiguration_lightscheme|
+    2.3 g:curtains_defaultscheme ...... |CurtainsConfiguration_defaultscheme|
+  3. License .......................... |CurtainsLicense|
+  4. Changelog ........................ |CurtainsChangelog|
+
+===============================================================
+1. Usage                                        *CurtainsUsage*
+
+This plugin enables you to quickly toggle between light and dark
+color schemes in your current vim sessions using the LightScheme
+and DarkScheme commands.
+
+It defines a "scheme" as simply a combination of 'background' and
+'colorscheme' settings, where of a course 'LightScheme' corresponds
+to a background setting of 'light' and a colorscheme of your choice
+and 'DarkScheme' corresponds to a background setting of 'dark' and a
+colorscheme of your choice.
+
+See |CurtainsConfiguration| for more information on how these values
+are determined.
+
+---------------------------------------------------------------
+1.1 :LightScheme                          *CurtainsLightScheme*
+
+The LightScheme command sets the active theme to "light" using
+the |CurtainsConfiguration_lightscheme| variable as it's configuration.
+
+---------------------------------------------------------------
+1.2 :DarkScheme                            *CurtainsDarkScheme*
+
+The DarkScheme command sets the active theme to "dark" using
+the |CurtainsConfiguration_darkscheme| variable as it's configuration.
+
+===============================================================
+2. Configuration                        *CurtainsConfiguration*
+
+The configuration of Curtains is core to it's functionality,
+while there are sensible defaults it's highly recommended that
+all of these config values be specified in your .vimrc.
+
+---------------------------------------------------------------
+2.1 g:curtains_darkscheme    *CurtainsConfiguration_darkscheme*
+
+This setting determines the colorscheme to use when the dark
+theme is active. Keep in mind this scheme will be used with
+"background = dark".
+
+Default: 'molokai'
+
+---------------------------------------------------------------
+2.2 g:curtains_lightscheme  *CurtainsConfiguration_lightscheme*
+
+This setting determines the colorscheme to use when the light
+theme is active. Keep in mind this scheme will be used with
+"background = light".
+
+Default: 'morning'
+
+---------------------------------------------------------------
+2.3 g:curtains_defaultscheme *CurtainsConfiguration_defaultscheme*
+
+This setting determines which type of scheme ('dark' or 'light')
+will be applied on vim loadup. Naturally this setting is
+restricted to a value of either 'dark' or 'light'.
+
+Default: 'light'
+
+===============================================================
+3. License                                    *CurtainsLicense*
+
+MIT License
+
+Copyright (c) 2018 Tyler Fowler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+
+===============================================================
+4. Changelog
+
+v1.0.0
+  * Initial release
+
+===============================================================
