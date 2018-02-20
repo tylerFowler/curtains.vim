@@ -60,7 +60,7 @@ This setting determines the colorscheme to use when the dark
 theme is active. Keep in mind this scheme will be used with
 "background = dark".
 
-Default: 'molokai'
+Default: 'default'
 
 ---------------------------------------------------------------
 2.2 g:curtains_lightscheme  *CurtainsConfiguration_lightscheme*
@@ -106,6 +106,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 
 ===============================================================
 4. Changelog
+
+v1.0.1
+  * Don't use 'molokai' (nonstandard) as default dark scheme, oops!
 
 v1.0.0
   * Initial release

@@ -3,7 +3,7 @@ if !exists("g:curtains_lightscheme")
 endif
 
 if !exists("g:curtains_darkscheme")
-  let g:curtains_darkscheme="molokai"
+  let g:curtains_darkscheme="default"
 endif
 
 if !exists("g:curtains_defaultscheme")

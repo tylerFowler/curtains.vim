@@ -15,7 +15,7 @@ Now when vim starts up it will automatically use `papercolor` as the colorscheme
 let g:curtains_defaultscheme = "dark"
 ```
 
-By default the light scheme will use the `morning` colorscheme and the dark scheme will use `molokai`.
+By default the light scheme will use the `morning` colorscheme and the dark scheme will use `default`.
 
 # Usage
 After adding the settings you can now run the `LightScheme` and `DarkScheme` commands to switch between themes.
