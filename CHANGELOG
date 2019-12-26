@@ -1,8 +1,4 @@
 Changelog
 =========
 
-# 1.0.1
-Don't use `molokai` as default dark scheme, use `default` colorscheme
-
-# 1.0.0
-Initial stable release
+See the Changelog section of the (vimdoc)[./doc/curtains.txt]
