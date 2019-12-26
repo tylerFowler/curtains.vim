@@ -17,6 +17,11 @@ let g:curtains_defaultscheme = "dark"
 
 By default the light scheme will use the `morning` colorscheme and the dark scheme will use `default`.
 
+## System Theme Detection
+On MacOS the default scheme can also be set to `system`, which will load the system's theme (i.e. light or dark) and use that. On other systems, using the `system` default scheme will use the dark scheme.
+
+Feel free to submit a PR for dark theme detection on other systems!
+
 # Usage
 After adding the settings you can now run the `LightScheme` and `DarkScheme` commands to switch between themes.
 
