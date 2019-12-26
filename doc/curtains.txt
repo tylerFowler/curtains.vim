@@ -75,10 +75,15 @@ Default: 'morning'
 2.3 g:curtains_defaultscheme *CurtainsConfiguration_defaultscheme*
 
 This setting determines which type of scheme ('dark' or 'light')
-will be applied on vim loadup. Naturally this setting is
-restricted to a value of either 'dark' or 'light'.
+will be applied on vim loadup. Setting this to 'system' will
+attempt to use the system theme, defaulting to the dark scheme
+if the system theme cannot be detected.
 
-Default: 'light'
+System theme detection is only supported on MacOS, feel free to
+submit a pull request at https://github.com/tylerFowler/curtains.vim
+to add support for your OS.
+
+Default: 'system', or 'dark' for systems that don't support detection
 
 ===============================================================
 3. License                                    *CurtainsLicense*
